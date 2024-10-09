@@ -8,7 +8,7 @@ if (num >= 0 && num <= 1000000) {
     for (let i = 0; i <= num; i++) {
         sum += i; 
     }
-    console.log(`Sum of numbers up to ${num} is ${sum}`);
+   window.alert(`Sum of numbers up to ${num} is ${sum}`);
 } else {
-    console.log("Invalid Number");
+    window.alert("Invalid Number");
 }
